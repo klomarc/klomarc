@@ -1,115 +1,102 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+# Parsed from verbatim file: Marcin_Klosowski-Lead_Engineer.docx.pdf
 
-# Content configuration version
-version: 2
-
-# Personal info
-name: Marcin Kłosowski
-title: Site Reliability Engineer
-#email: brett.h@email.co.uk
-website: https://github.com/klomarc
-
-# Dark Mode (true/false/never)
-darkmode: true
-
-# Social links
-#twitter_username: facespics
-github_username:  klomarc
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
-#linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+name: "Marcin Kłosowski[cite: 1]"
+title: "SENIOR INFRASTRUCTURE AUTOMATION ENGINEER[cite: 1]"
 
 
-# About Section
-# about_title: About Me
-about_content: | # this will include new lines to allow paragraphs
-  Experienced IT professional with over 8 years of experience specializing in security, observability, infrastructure automation, and cloud technologies. Currently focused on building scalable monitoring solutions and telemetry-driven observability platforms. 
-  
-  Leading the development of an observability solution processing telemetry from 4,000+ Cisco network devices via gRPC. 
-  Serving as the Tech Lead of a Tiger Team responsible for the deployment and adoption of NetBox across the organization. 
-  
-  Experienced in coordinating technical initiatives, organizing project delivery, mentoring engineers, and driving cross-team collaboration.
+profile: "Experienced IT professional with over 8 years of experience specializing in security, observability, infrastructure automation, and cloud technologies.[cite: 1] Currently focused on building scalable monitoring solutions and telemetry-driven observability platforms.[cite: 1] Leading the development of an observability solution processing telemetry from 4,000+ Cisco network devices via gRPC and serving as the Tech Lead of a Tiger Team responsible for the deployment and adoption of NetBox across the organization.[cite: 1] Experienced in coordinating technical initiatives, organizing project delivery, mentoring engineers, and driving cross-team collaboration.[cite: 1]"
 
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+skills:
+  - "Observability[cite: 1]"
+  - "IT Automation[cite: 1]"
+  - "Leadership[cite: 1]"
+  - "Troubleshooting[cite: 1]"
+  - "Administration[cite: 1]"
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+languages:
+  - "Polish[cite: 1]"
+  - "English[cite: 1]"
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+experience:
+  - company: "Rockwell Automation[cite: 1]"
+    role: "Senior Infrastructure Automation Engineer[cite: 1]"
+    dates: "DECEMBER 2025 - PRESENT[cite: 1]"
+    tasks:
+      - "Lead the design, development, and maintenance of an observability platform collecting telemetry from 4,000+ Cisco network devices using gRPC, InfluxDB, Grafana, and Telegraf.[cite: 1]"
+      - "Serve as Tech Lead of a Tiger Team responsible for planning, deploying, and integrating NetBox as the organization's source of truth for network infrastructure.[cite: 1]"
+      - "Manage and maintain Azure cloud resources, ensuring secure, reliable, and cost-effective infrastructure operations.[cite: 1]"
+      - "Lead technical work across multiple projects in a 6-engineer team, owning task prioritization, key technical decisions, stakeholder alignment, and project delivery.[cite: 1]"
+      - "Mentor team of 6 engineers through technical guidance, knowledge sharing, code reviews, and day-to-day support.[cite: 1]"
+      - "Increased team visibility through the implementation of automated, custom metrics reporting.[cite: 1]"
+    tools: "Telegraf, Grafana, InfluxDB, Terraform, Azure, NetBox, Prometheus, Docker, OpenSearch, API [REST, GraphQL], BlinkOps, Git, Azure DevOps, Proxmox, CyberArk[cite: 1]"
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - company: "IBM[cite: 2]"
+    role: "Security Engineer[cite: 2]"
+    dates: "NOVEMBER 2023 - NOVEMBER 2025[cite: 2]"
+    tasks:
+      - "Acting as Technical Leader regarding network automation inside the team.[cite: 2]"
+      - "Guiding engineers inside the team, like also customers on how to provide automation inside their infrastructure.[cite: 2]"
+      - "Project B: Leading team of engineers to onboard automation concepts into client's environment[cite: 2]"
+      - "Project B: Designing CI/CD pipeline for firewall rule automation using DevOps tools[cite: 2]"
+      - "Project B: Providing documentation and drawings about automation process[cite: 2]"
+      - "Project B: Providing training for other engineers in the team about DevOps tools that are used inside automation pipeline[cite: 2]"
+      - "Project A: Act as a leader regarding monitoring and automation topics and its improvements[cite: 2]"
+      - "Project A: Provide automation for day-to-day tasks using scripting languages[cite: 2]"
+      - "Project A: Building, evaluating and implementing network monitoring tool based on containers[cite: 2]"
+      - "Project A: Taking responsibility for AWS account management[cite: 2]"
+    tools: "Terraform, GitHub, Python, ServiceNow, Azure, Git, Visio, Actions [GitHub], Linux, Zabbix, Docker, Telegraf, PostgreSQL, Grafana, AWS, Fortinet, Checkpoint, Juniper, Monday[cite: 2]"
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - company: "Accenture[cite: 3]"
+    role: "Network Specialist[cite: 3]"
+    dates: "JANUARY 2023 - OCTOBER 2023[cite: 3]"
+    tasks:
+      - "Network Operations Expert [from May]: Designing network infrastructure modernization.[cite: 3]"
+      - "Providing HLD documents, implementing and configuring network devices, acting as SME for client[cite: 3]"
+      - "Security Engineer [from Jan to May]: Providing L2 support regarding service requests and incidents for client in the financial sector.[cite: 3]"
+    tools: "Public Cloud [Azure], Fortinet [NGFW, FortiManager], Palo Alto [NGFW], Cisco [Switches], MS Visio, Checkpoint [NGFW], Splunk[cite: 3]"
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - company: "Accenture[cite: 3]"
+    role: "Tech Architecture Senior Analyst[cite: 3]"
+    dates: "JANUARY 2022 - JANUARY 2023[cite: 3]"
+    tasks:
+      - "Providing L3 support for issues related to NAC and Remote Access VPN[cite: 3]"
+      - "Projects: Cloud Native VPN [Configuring and evaluating solution against company standards, Providing user guides and automation templates for deployment][cite: 3]"
+    tools: "Azure, AWS, Git, Terraform, PulseSecure [NAC and VPN], Prisma Access [SASE VPN Solution][cite: 3]"
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+  - company: "Mobica Ltd., Bydgoszcz[cite: 3]"
+    role: "Network Engineer - Network Team Leader[cite: 3]"
+    dates: "JANUARY 2021 - DECEMBER 2021[cite: 3]"
+    tasks:
+      - "Acting as technical network leader providing L3 support for users and mentoring junior engineers.[cite: 3]"
+      - "Projects: NAC implementation [Extreme Control solution][cite: 3]"
+      - "Remote Access VPN [Changing the authentication method from username/password to certificate, Implementing features like autoconnect][cite: 3]"
+    tools: "Extreme Networks [LAN, WLAN, NAC][cite: 3], Fortinet [NGFW, VPN, EMS], Python for simple automation tasks, Service Desk+[cite: 4]"
 
-# Build settings
-remote_theme: sproogen/resume-theme
+  - company: "Atos PGS Sp. z o. o., Bydgoszcz[cite: 4]"
+    role: "Security Engineer[cite: 4]"
+    dates: "AUGUST 2020 - DECEMBER 2020[cite: 4]"
+    tasks:
+      - "Providing L2/L3 network support for external client [pharmaceutical company][cite: 4]"
+      - "Perform on-call duty for handling critical incidents[cite: 4]"
+    tools: "Checkpoint [NGFW], Akamai [WAF, CDN], Splunk [Log collector], ServiceNow[cite: 4]"
 
-sass:
-  sass_dir: _sass
-  style: compressed
+  - company: "Mobica Ltd., Bydgoszcz[cite: 4]"
+    role: "Junior Network Engineer[cite: 4]"
+    dates: "MARCH 2019 - AUGUST 2020[cite: 4]"
+    tasks:
+      - "Providing L2 support for users[cite: 4]"
+      - "Projects: Network gear migration from Cisco to Extreme Networks [LAN, WLAN][cite: 4]"
+    tools: "Cisco [LAN, WLAN], Extreme Networks [LAN, WLAN], Fortinet [NGFW, VPN], ServiceDesk+, Jira[cite: 4]"
 
-plugins:
- - jekyll-seo-tag
+  - company: "Bank Pocztowy Sp. z o.o, Bydgoszcz[cite: 4]"
+    role: "Junior IT Support Engineer[cite: 4]"
+    dates: "SEPTEMBER 2018 - FEBRUARY 2019[cite: 4]"
+    tasks:
+      - "Providing L1 technical support for users via phone[cite: 4]"
+
+certifications:
+  - "AgilePM® Foundation, JUNE 2024[cite: 4]"
+  - "AWS Certified Cloud Practitioner, 2024-2027[cite: 4]"
+  - "Microsoft Certified: Network Engineer Associate, MARCH 2023 - 2024[cite: 4]"
+  - "Microsoft Certified: Security, Compliance, and Identity Fundamentals, JULY 2022[cite: 4]"
+  - "Microsoft Certified: Azure Fundamentals, FEBRUARY 2022[cite: 4]"
